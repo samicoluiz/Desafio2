@@ -2,7 +2,7 @@ from edificio import Edificio
 from input_validation import validar, vetorizar_entrada
 from tabeliao import logar
 
-with open("entrada.txt", "r") as f:
+with open("src/entrada.txt", "r") as f:
     entrada = f.read()
 
 # Validando a entrada
